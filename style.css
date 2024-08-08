@@ -1,0 +1,59 @@
+*{
+    margin 0;
+    padding 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather',serif;
+}
+.all content{
+    background: #f7f5f2;
+}
+html ::-webkit-scrollbar-track{
+    background: transparent;
+}
+html ::-webkit-scrollbar-thumb{
+    background: #aeb2b1;
+    border-radius: 10px;
+}
+html ::-webkit-scrollbar{
+    width: 10px;
+}
+
+#navbar{
+    background-color: rgb(89, 96, 237);
+}
+#logo img{
+    width: 160px;
+}
+.navbar-nav{
+    margin-left: 10px;
+}
+.nav-item .nav-link{
+    color: black;
+    margin-left: 10px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.nav-item .nav-link:hover{
+    background: #f7f5f2;
+    border-radius: 5px;
+    color: black;
+
+}
+.carousel {
+    width: 900px;
+    height: 600px;
+    margin-left: 250px;
+    
+}
+
+card.img.top{
+    border-radius: 50px;
+    padding: 20px;
+}
+.card{
+    border-radius: 30px;
+}
+.card-body{
+    padding: 25px;
+    margin-top: 15px;
+}
